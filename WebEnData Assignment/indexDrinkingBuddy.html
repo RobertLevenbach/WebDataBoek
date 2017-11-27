@@ -2,23 +2,44 @@
     <head>
         <title>Button</title>
     </head>
-    <body>
 
-     	
- 
-        <input type="button" value="Took A Drink" id="b1" onclick="changeText();"/>
-        
-        <p>The Last drink You took was at:</p>
-        <p id="pText">No drinks yet, Fagget</p>
-       	<p>Hour:</p>
-        <p id="Hour">No drinks yet, Fagget</p>
-        <p>Minute:</p>
-        <p id="Minute">No drinks yet, Fagget</p>
-        <p>Second:</p>
-        <p id="Second">No drinks yet, Fagget</p>
+    
+    <body>
+ 		
+
+ 		<main>
+
+ 			<div>
+		        <input type="button" value="Took A Drink" id="b1" onclick="changeText();"/>
+		        
+				<p>Date:</p>
+		        <p>The Last drink You took was at:</p>
+		        <p id="pText">No drinks yet, Fagget</p>
+		       	<p>Hour:</p>
+		        <p id="Hour">Ga Drinken Kneus</p>
+		        <p>Minute:</p>
+		        <p id="Minute">WTF</p>
+		        <p>Second:</p>
+		        <p id="Second">Riedadt</p>
+			</div>
+
+
+			<div>
+				 <button id="b0" onclick="changePicture('db.jpg')">I am super drunk</button>
+				 <button id="b1" onclick="changePicture('image1.jpg')">I am very drunk</button>
+
+				<p>
+		        	<img alt="" src="db.jpg" 
+		            style="height: 85px; width: 198px" id="imgClickAndChange"  />
+				</p>
+			</div>
+
+        </main>
 
 
     </body>
+
+
      <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
  <script src="app.js"></script>
 </html>
